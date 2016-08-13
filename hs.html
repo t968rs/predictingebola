@@ -20,7 +20,10 @@
 		<link rel="stylesheet" href="assets/css/styles.css">
 
 		<script src="assets/js/jquery-1.11.2.min.js"></script>
-	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <script src="assets/js/bootstrap.min.js"></script>
+	  <script src="assets/js/carousel.js"></script>
+		<script src="assets/js/html5.js"></script>
+		<script src="assets/js/respond.min.js"></script>
 
 		<!-- Conditional comment containing JS files for IE6 - 8 -->
 		<!--[if lt IE 9]>
@@ -28,7 +31,7 @@
 			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
 	</head>
-
+	<body>
 	<!-- Navigation -->
 		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 		<div class="container-fluid">
@@ -60,12 +63,11 @@
 	</nav>
 	<!-- /.navbar -->
 
-	<div id="HS Carousel" class="Carousel" data-ride="carousel">
+	<div id="HSCarousel" class="carousel slide" data-ride="carousel">
 	  <!-- Indicators -->
 	  <ol class="carousel-indicators">
-	    <li data-target="#hs" data-slide-to="0" class="active"></li>
-	    <li data-target="#maxent" data-slide-to="1" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	    <li data-target="#HSCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#HSCarousel" data-slide-to="1"></li>
 	  </ol>
 
 	  <!-- Wrapper for slides -->
@@ -88,12 +90,13 @@
 	  </div>
 
 	  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	  <a class="left carousel-control" href="#HSCarousel" role="button" data-slide="prev">
 	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 	    <span class="sr-only">Previous</span>
 	  </a>
-	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	  <a class="right carousel-control" href="#HSCarousel" role="button" data-slide="next">
 	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 	    <span class="sr-only">Next</span>
 	  </a>
 	</div>
+</body>
