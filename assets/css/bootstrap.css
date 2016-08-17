@@ -6043,16 +6043,18 @@ button.close {
 }
 .carousel {
   position: top;
+  width: 90%;
   max-height: 90% !important;
 }
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 90%;
   max-height: 80% !important;
   overflow: hidden;
 }
 .carousel-inner > .item {
   max-height: 80%;
+  width:90%;
   position: relative;
   display: none;
   -webkit-transition: .6s ease-in-out left;
@@ -6061,6 +6063,7 @@ button.close {
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
+  width: 90%;
   max-height: 80%;
   line-height: 1;
 }
