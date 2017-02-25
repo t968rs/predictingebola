@@ -1,0 +1,9 @@
+element.style {
+    cursor: default;
+    height: 80px;
+    width: 80px;
+    image-rendering: -webkit-optimize-contrast;
+    background-image: url("https://scontent-sjc2-1.xx.fbcdn.net/t39.1997-6/p960x960/10574683_823252521027059_1614705373_n.png");
+    background-size: 560px 480px;
+    background-position: 0px 0px;
+}
